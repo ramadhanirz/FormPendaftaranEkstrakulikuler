@@ -15,11 +15,11 @@ Untuk radio button tidak saya beri deteksi karena menurut saya meendaftar sebaga
 ![screenshot3] (https://ramadhanirz.files.wordpress.com/2016/10/whatsapp-image-2016-10-15-at-2-57-35-pm1.jpeg?w=924)
 
 [LINK APLIKASI]
-(https://drive.google.com/open?id=0B9Mvb4qe2GAUa3RWVldoWGRzWWM)
+(https://drive.google.com/open?id=0B9Mvb4qe2GAUa3RWVldoWGRzWWM) <h2>
 
 
-Nama : Riza Ramadhani
-Kelas : XIIR2
-No. Abs : 33
-NIS : 4426/1324.063
-Nama Sekolah : SMK Telkom Malang 
+Nama : Riza Ramadhani <h3>
+Kelas : XIIR2 <h3>
+No. Abs : 33 <h3>
+NIS : 4426/1324.063 <h3>
+Nama Sekolah : SMK Telkom Malang <h3> 
