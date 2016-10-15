@@ -44,4 +44,47 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void doProcess() {
+        String hasil = null;
+        String hasil2 = "\n Ekstra yang ingin dipilih : \n";
+
+        if (rbLk.isChecked()) {
+            hasil = rbLk.getText().toString();
+        } else if (rbPr.isChecked()) {
+            hasil = rbPr.getText().toString();
+        }
+
+        int startlen = hasil2.length();
+        if (cbPr.isChecked()) hasil2 += " - " + cbPr.getText() + "\n";
+        if (cbBs.isChecked()) hasil2 += " - " + cbBs.getText() + "\n";
+        if (cbPs.isChecked()) hasil2 += " - " + cbPs.getText() + "\n";
+        if (cbSb.isChecked()) hasil2 += " - " + cbSb.getText() + "\n";
+        if (cbVl.isChecked()) hasil2 += " - " + cbVl.getText() + "\n";
+        if (hasil2.length() == startlen) hasil2 += "Tidak ada yang dipilih";
+
+        if (isValid()) {
+            String nama = etNama.getText().toString();
+
+            tvHasil.setText("Nama Lengkap    : " + nama +
+                    "\nKelas                 : " + spKelas.getSelectedItem().toString() +
+                    "\nGender                : " + hasil +
+                    hasil2);
+        }
+
+    }
+
+    private boolean isValid() {
+        boolean valid = true;
+
+        String Nama = etNama.getText().toString();
+
+        if (Nama.isEmpty()) {
+            etNama.setError("Nama Lengkap Belum Diisi");
+            valid = false;
+        }
+        return valid;
+    }
+
 }
